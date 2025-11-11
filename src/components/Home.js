@@ -16,7 +16,7 @@ const Home = () => {
           Screenshot Section
         </Link>
         <Link to="/mcp-feature-specs" className="home-nav-button home-nav-button-green">
-          MCP Feature Specs
+          MCP Feature Specs Section
         </Link>
       </div>
     </div>
