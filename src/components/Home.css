@@ -26,3 +26,33 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(116, 79, 168, 0.4);
 }
+
+.home-nav-button-green {
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  box-shadow: 0 4px 15px 0 rgba(76, 175, 80, 0.75);
+}
+
+.home-nav-button-green:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+.home-nav-button-pink {
+  background: linear-gradient(135deg, #E91E63 0%, #AD1457 100%);
+  box-shadow: 0 4px 15px 0 rgba(233, 30, 99, 0.75);
+}
+
+.home-nav-button-pink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(233, 30, 99, 0.4);
+}
+
+.home-nav-button-orange {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  box-shadow: 0 4px 15px 0 rgba(255, 107, 107, 0.75);
+}
+
+.home-nav-button-orange:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}

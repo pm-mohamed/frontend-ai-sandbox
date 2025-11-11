@@ -9,11 +9,14 @@ const Home = () => {
       <p>Navigate to different sections using the buttons below:</p>
       
       <div className="home-nav-buttons">
-        <Link to="/mcp" className="home-nav-button">
+        <Link to="/mcp" className="home-nav-button home-nav-button-pink">
           MCP Section
         </Link>
-        <Link to="/screenshot" className="home-nav-button">
+        <Link to="/screenshot" className="home-nav-button home-nav-button-orange">
           Screenshot Section
+        </Link>
+        <Link to="/mcp-feature-specs" className="home-nav-button home-nav-button-green">
+          MCP Feature Specs
         </Link>
       </div>
     </div>

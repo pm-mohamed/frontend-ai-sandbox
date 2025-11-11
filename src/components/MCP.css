@@ -59,7 +59,7 @@
 
 .mcp-menu-button:hover {
   background-color: #f8f9fa;
-  color: #667eea;
+  color: #E91E63;
 }
 
 .mcp-chevron {
@@ -96,7 +96,7 @@
 
 .mcp-dropdown a:hover {
   background-color: #f8f9fa;
-  color: #667eea;
+  color: #E91E63;
 }
 
 /* Contact Button Styles */
@@ -135,19 +135,19 @@
   font-size: 16px;
   font-weight: 500;
   color: white;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E91E63 0%, #AD1457 100%);
   border: none;
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  box-shadow: 0 4px 15px 0 rgba(233, 30, 99, 0.75);
 }
 
 .mcp-back-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(116, 79, 168, 0.4);
+  box-shadow: 0 6px 20px rgba(233, 30, 99, 0.4);
 }
 
 /* Responsive Design */

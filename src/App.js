@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import MCP from './components/MCP';
 import Screenshot from './components/Screenshot';
+import McpFeatureSpecs from './components/McpFeatureSpecs';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/mcp" element={<MCP />} />
           <Route path="/screenshot" element={<Screenshot />} />
+          <Route path="/mcp-feature-specs" element={<McpFeatureSpecs />} />
         </Routes>
       </div>
     </Router>
