@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './MCP.css';
 
 const MCP = () => {
   return (
-    <div className="page">
-      
-      <Link to="/" className="nav-button">
-        Back to Home
-      </Link>
+    <div className="mcp-page">
+      <div className="mcp-center">
+        <Link to="/" className="mcp-back-button">
+          Back to Home
+        </Link>
+      </div>
     </div>
   );
 };

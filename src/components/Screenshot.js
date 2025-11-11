@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Screenshot.css';
 
 const Screenshot = () => {
   return (
-    <div className="page">
-      
-      <Link to="/" className="nav-button">
-        Back to Home
-      </Link>
+    <div className="screenshot-page">
+      <div className="screenshot-center">
+        <Link to="/" className="screenshot-back-button">
+          Back to Home
+        </Link>
+      </div>
     </div>
   );
 };

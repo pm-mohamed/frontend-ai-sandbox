@@ -1,0 +1,28 @@
+.home-nav-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.home-nav-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  min-width: 160px;
+}
+
+.home-nav-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(116, 79, 168, 0.4);
+}
